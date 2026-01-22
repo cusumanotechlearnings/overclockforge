@@ -1,0 +1,53 @@
+# .cursorrules for The Forge Project
+
+## Core Principles for Non-Coders
+
+1. **Always Explain Logic Simply**
+   - Break down complex concepts into easy-to-understand explanations
+   - Use analogies when helpful
+   - Avoid jargon without explanations
+
+2. **No Placeholders or TODOs**
+   - Write complete, working code from the start
+   - Don't leave TODO comments or placeholder values
+   - If something needs configuration, provide clear instructions on what values to use
+
+3. **Create PLAN.md First**
+   - Before implementing major features, outline the approach in PLAN.md
+   - Keep PLAN.md updated as the project evolves
+   - Reference PLAN.md when making architectural decisions
+
+4. **Code Comments for Clarity**
+   - Add comments explaining WHY, not just WHAT
+   - Use clear, descriptive variable and function names
+   - Explain non-obvious logic with inline comments
+
+5. **Error Handling**
+   - Always handle errors gracefully with user-friendly messages
+   - Don't let errors crash the application silently
+   - Provide helpful error messages that guide users on what to do
+
+6. **TypeScript Best Practices**
+   - Use explicit types, especially for function parameters and returns
+   - Avoid `any` types - use proper types or `unknown`
+   - Create interfaces/types for complex data structures
+
+7. **Component Organization**
+   - Keep components small and focused on a single responsibility
+   - Use descriptive component names
+   - Separate logic from presentation when helpful
+
+8. **Documentation**
+   - Keep README.md updated with setup instructions
+   - Document environment variables and configuration requirements
+   - Explain any external dependencies or API keys needed
+
+9. **Testing Considerations**
+   - Write code that is testable
+   - Consider edge cases in implementation
+   - Provide example data or test scenarios when helpful
+
+10. **User Experience**
+    - Build intuitive interfaces that guide users
+    - Provide loading states and feedback
+    - Make error messages actionable

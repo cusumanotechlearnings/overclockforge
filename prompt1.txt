@@ -1,0 +1,23 @@
+I am a non-coder building 'The Forge,' an AI-driven assignment synthesizer. We are using Next.js 15 (App Router), Vercel AI SDK, Tailwind CSS, and shadcn/ui.
+
+Objective: Create a foundation where I can upload or reference a 'knowledge base' (PDFs/Text) to generate nuanced case studies.
+
+Tasks:
+
+Initialize a clean Next.js project with TypeScript.
+
+Create a .cursorrules file to ensure you always follow best practices for non-coders (explain logic simply, don't use placeholders, create a PLAN.md first).
+
+Create a PLAN.md at the root that outlines our 3-phase roadmap:
+
+Phase 1: Knowledge Base Ingestion (Local folder + Vector indexing).
+
+Phase 2: Synthesis Engine (Generating the assignment and rubric).
+
+Phase 3: Grading & Multi-modal Feedback.
+
+Set up a folder called /knowledge_base where I can drop my PDFs.
+
+Build a basic homepage with a search bar and a 'Generate Assignment' button using shadcn/ui.
+
+Please start by outlining the PLAN.md and then proceed to the code once I approve."
